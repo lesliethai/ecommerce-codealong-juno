@@ -1,10 +1,5 @@
-// HEADINGS:
-// h1: 28px;
-// h2: 40px;
-// h3: 54px;
-// h4: 34px;
-// h5: 14px;
 @import './partials/setup';
 @import './partials/variables';
-// put variables on top of typography
+@import './partials/mixins';
+// put variables on top of typography so its available for all below 
 @import './partials/typography';
