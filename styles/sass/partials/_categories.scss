@@ -3,14 +3,13 @@
 }
 
 .categoryGallery {
-    border: 1px solid red;
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-evenly; 
     
     .item a:hover,
     .item a:focus {
-        transform: scale(0.9);
+        transform: scale(0.9); 
     }
 
     .item {

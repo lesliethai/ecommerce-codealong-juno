@@ -468,7 +468,6 @@ header .headerContentContainer {
 }
 
 .categoryGallery {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -504,6 +503,24 @@ header .headerContentContainer {
 }
 .categoryGallery .item4 {
   background-color: #fff5f5;
+}
+
+.play {
+  background-image: url(../assets/background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.playContainer {
+  background-color: #fff;
+  border: 20px solid #f4fcff;
+  max-width: 650px;
+  padding: 70px 40px;
+  text-align: center;
+}
+.playContainer p {
+  text-align: left;
 }
 
 footer {
