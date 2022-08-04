@@ -78,4 +78,16 @@
             @include fontSize(40); 
         }
     }
+
+    footer {
+        .footerNav {
+            flex-direction: column; 
+            align-items: center; 
+
+            ul {
+                margin-bottom: 20px; 
+                text-align: center; 
+            }
+        }
+    }
 } 
