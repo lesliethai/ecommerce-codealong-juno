@@ -52,6 +52,10 @@
         flex-direction: column; 
         z-index: 20;
         left: -450px; 
+
+        &.open {
+            left: 0px;
+        }
     }
 
     button {

@@ -435,6 +435,9 @@ a.secondaryButton:hover, a.secondaryButton:focus {
   z-index: 20;
   left: -450px;
 }
+.navBar .slideOutNav.open {
+  left: 0px;
+}
 .navBar button {
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -618,6 +621,11 @@ footer a:hover, footer a:focus {
     -ms-flex-item-align: auto;
         align-self: auto;
   }
+  .slideOutNav {
+    font-family: "Young Serif";
+    font-size: 30px;
+    font-size: 1.5rem;
+  }
   .categoryGallery .item {
     width: 100%;
   }
@@ -641,7 +649,9 @@ footer a:hover, footer a:focus {
             align-items: center;
   }
   footer .footerNav ul {
-    margin-bottom: 20px;
     text-align: center;
+  }
+  footer .footerNav ul:not(:last-child) {
+    margin-bottom: 20px;
   }
 }

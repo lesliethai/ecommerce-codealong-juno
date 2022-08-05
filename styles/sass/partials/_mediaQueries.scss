@@ -61,6 +61,11 @@
         }
     }
 
+    .slideOutNav {
+        font-family: $primaryFont;
+        @include fontSize(30);
+    }
+
     .categoryGallery {
         .item {
             width: 100%;
@@ -85,8 +90,11 @@
             align-items: center; 
 
             ul {
-                margin-bottom: 20px; 
                 text-align: center; 
+
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
             }
         }
     }
