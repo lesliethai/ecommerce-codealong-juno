@@ -2,6 +2,7 @@ header {
     display: flex; 
     align-items: center; 
     background-color: $tertiary;
+    flex-wrap: wrap; 
 
     .headerImgContainer {
         width: 45%;
@@ -10,5 +11,23 @@ header {
     .headerContentContainer {
         width: 55%;
         padding: 0 70px;
+    }
+}
+
+.contactHeader {
+    background-color: $quaternary; 
+    padding-top: 100px; 
+    text-align: center;
+
+    .contactContent {
+        padding-bottom: 50px;
+    }
+
+    &::after {
+        content: "";
+        background-image: url(../assets/wave.svg);  
+        width: 100%;
+        height: 150px; 
+        background-size: 100% 150px;  
     }
 }

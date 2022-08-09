@@ -457,6 +457,8 @@ header {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f8fbf3;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 header .headerImgContainer {
   width: 45%;
@@ -464,6 +466,22 @@ header .headerImgContainer {
 header .headerContentContainer {
   width: 55%;
   padding: 0 70px;
+}
+
+.contactHeader {
+  background-color: #fff5f5;
+  padding-top: 100px;
+  text-align: center;
+}
+.contactHeader .contactContent {
+  padding-bottom: 50px;
+}
+.contactHeader::after {
+  content: "";
+  background-image: url(../assets/wave.svg);
+  width: 100%;
+  height: 150px;
+  background-size: 100% 150px;
 }
 
 .categories {
