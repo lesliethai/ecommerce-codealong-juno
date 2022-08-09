@@ -10,4 +10,4 @@ document.addEventListener("DOMContentLoaded", () => {
     menuCloseButton.addEventListener('click', (e) => {
         menu.classList.remove('open');
     });
-})
+}) 
